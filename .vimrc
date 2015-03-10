@@ -52,7 +52,7 @@ let g:syntastic_javascript_checkers = ['jshint']
 let g:snips_author = 'UJLAKY Tibor <tujlaky@plex.hu>'
 
 " ctrlp
-let g:ctrlp_custom_ignore = '\v[\/](\.(git|svn)|node_modules|bower_components|dist|\.tmp|articles|attachments|cache|logs|log|articles-longid|sitemap|resources)$'
+let g:ctrlp_custom_ignore = '\v[\/](\.(git|svn)|node_modules|bower_components|dist|\.tmp|articles|attachments|cache|logs|log|articles-longid|sitemap|resources|vendor)$'
 let g:ctrlp_working_path_mode = 0
 
 
