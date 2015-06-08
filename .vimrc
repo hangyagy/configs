@@ -108,3 +108,9 @@ let g:instant_markdown_autostart = 0
 
 " vimgrep
 map <F4> :execute "vimgrep /" . expand("<cword>") . "/j **" <Bar> cw<CR>
+
+" json
+set conceallevel=0
+
+" disable folding
+set nofoldenable
