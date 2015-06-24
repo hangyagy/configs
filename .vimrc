@@ -63,7 +63,7 @@ nnoremap <c-]> :CtrlPFunky<cr>
 let g:ctrlp_extensions = ['funky']
 
 " Emmet
-autocmd FileType html,css,scss,smarty,xml imap <buffer> <expr> <Tab> emmet#expandAbbrIntelligent("\<Tab>")
+autocmd FileType html,xhtml,css,scss,smarty,xml imap <buffer> <expr> <Tab> emmet#expandAbbrIntelligent("\<Tab>")
 
 " vim-easymotion
 nmap s <Plug>(easymotion-s)
