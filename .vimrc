@@ -73,7 +73,10 @@ map <Leader> <Plug>(easymotion-prefix)
 "map k <Plug>(easymotion-k)
 map w <Plug>(easymotion-w)
 map b <Plug>(easymotion-b)
+map B <Plug>(easymotion-B)
 map e <Plug>(easymotion-e)
+map ge <Plug>(easymotion-ge)
+map gE <Plug>(easymotion-gE)
 
 let g:EasyMotion_startofline = 0
 
