@@ -75,6 +75,7 @@ map w <Plug>(easymotion-w)
 map b <Plug>(easymotion-b)
 map B <Plug>(easymotion-B)
 map e <Plug>(easymotion-e)
+map E <Plug>(easymotion-E)
 map ge <Plug>(easymotion-ge)
 map gE <Plug>(easymotion-gE)
 
