@@ -13,8 +13,8 @@ compinit
 # End of lines added by compinstall
 
 alias ls='ls --color'
-export PS1="%F{magenta}%n%f in %F{yellow}%d%f
-○ "
+export PS1="%B%F{magenta}%n%f%b in %F{yellow}%~%f
+%B○%b "
 
 bindkey "\e[5~" history-search-backward
 bindkey "\e[6~" history-search-forward
