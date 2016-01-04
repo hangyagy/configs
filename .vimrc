@@ -6,7 +6,8 @@ syntax on
 filetype plugin indent on
 
 set ignorecase		" Do case insensitive matching
-
+set smartcase
+set incsearch
 set tabstop=4
 set shiftwidth=4
 set smartindent
@@ -22,7 +23,7 @@ set listchars=tab:\|\ ,trail:·,eol:¬
 "set listchars=tab:▸\ ,trail:·,eol:¬
 
 map <leader>t :Tabularize /=><CR>
-map <leader>T :Tabularize /=<CR>
+map <S-t> :Tabularize /=<CR>
 
 
 " tab navigation like firefox
